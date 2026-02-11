@@ -78,7 +78,7 @@ h1::after{
     overflow: hidden;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
     transition: transform 0.2s;
-    margin-bottom: 20px;
+    
 }
 
 .color-box:hover{
@@ -86,7 +86,7 @@ h1::after{
 }
 
 .color{
-    height: 150px;
+    height: 175px;
     cursor: pointer;
 }
 
