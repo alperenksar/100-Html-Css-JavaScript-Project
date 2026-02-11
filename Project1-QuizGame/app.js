@@ -18,32 +18,95 @@ const progressBar = document.getElementById("progress");
 
 const quizQuestions = [
 {
-    question:"İloş ibne midir?",
-    answers:[
-        {text:"Evet" , correct:true},
-        {text:"Kesinlikle Evet" , correct:true},
-        {text:"Hayır" , correct:false},
-        {text:"Alperen daha ibnedir" , correct:false},
-    ],
-},
-{
-    question:"İloş Alperen'i Türkiye'de özler mi?",
-    answers:[
-        {text:"Evet" , correct:false},
-        {text:"Hayır" , correct:false},
-        {text:"Sanmıyorum" , correct:false},
-        {text:"ALPEREN ÖZLER" , correct:true},
-    ],
-},
-{
-    question:"Spark mı Alperen mi?",
-    answers:[
-        {text:"Spark" , correct:true},
-        {text:"Alperen" , correct:false},
-        {text:"Tabi ki Spark" , correct:true},
-        {text:"Alperen şaka şaka Spark" , correct:true},
-    ],
-},
+    question: "What is the primary gas found in the Earth's atmosphere?",
+        answers: [
+            { text: "Oxygen", correct: false },
+            { text: "Nitrogen", correct: true },
+            { text: "Carbon Dioxide", correct: false },
+            { text: "Hydrogen", correct: false },
+        ],
+    },
+    {
+        question: "Which planet is known as the Red Planet?",
+        answers: [
+            { text: "Venus", correct: false },
+            { text: "Jupiter", correct: false },
+            { text: "Mars", correct: true },
+            { text: "Saturn", correct: false },
+        ],
+    },
+    {
+        question: "What is the chemical symbol for Gold?",
+        answers: [
+            { text: "Gd", correct: false },
+            { text: "Ag", correct: false },
+            { text: "Au", correct: true },
+            { text: "Pb", correct: false },
+        ],
+    },
+    {
+        question: "Which organ is responsible for pumping blood throughout the human body?",
+        answers: [
+            { text: "Lungs", correct: false },
+            { text: "Heart", correct: true },
+            { text: "Liver", correct: false },
+            { text: "Brain", correct: false },
+        ],
+    },
+    {
+        question: "What is the speed of light in a vacuum approximately?",
+        answers: [
+            { text: "300,000 km/s", correct: true },
+            { text: "150,000 km/s", correct: false },
+            { text: "500,000 km/s", correct: false },
+            { text: "1,000,000 km/s", correct: false },
+        ],
+    },
+    {
+        question: "Which element has the atomic number 1?",
+        answers: [
+            { text: "Helium", correct: false },
+            { text: "Oxygen", correct: false },
+            { text: "Hydrogen", correct: true },
+            { text: "Carbon", correct: false },
+        ],
+    },
+    {
+        question: "What is the hardest natural substance on Earth?",
+        answers: [
+            { text: "Gold", correct: false },
+            { text: "Iron", correct: false },
+            { text: "Diamond", correct: true },
+            { text: "Quartz", correct: false },
+        ],
+    },
+    {
+        question: "Which part of the plant conducts photosynthesis?",
+        answers: [
+            { text: "Root", correct: false },
+            { text: "Stem", correct: false },
+            { text: "Leaf", correct: true },
+            { text: "Flower", correct: false },
+        ],
+    },
+    {
+        question: "Who proposed the theory of general relativity?",
+        answers: [
+            { text: "Isaac Newton", correct: false },
+            { text: "Albert Einstein", correct: true },
+            { text: "Galileo Galilei", correct: false },
+            { text: "Nikola Tesla", correct: false },
+        ],
+    },
+    {
+        question: "What is the boiling point of water at sea level?",
+        answers: [
+            { text: "90°C", correct: false },
+            { text: "120°C", correct: false },
+            { text: "100°C", correct: true },
+            { text: "80°C", correct: false },
+        ],
+    },
 
 
 ];
