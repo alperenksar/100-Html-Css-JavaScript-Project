@@ -43,11 +43,27 @@ body{
     font-size: 2.5rem;
 }
 
-#start-screen h1{
-    color: #666;
-    margin-bottom: 30px;
-    font-size: 1.1rem;
+#start-screen p{
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
 }
+
+#start-btn{
+    background-color: #e86a33;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#start-btn:hover{
+    background-color: #d45b28;
+}
+
 
 .quiz-header{
     margin-bottom: 2rem;
